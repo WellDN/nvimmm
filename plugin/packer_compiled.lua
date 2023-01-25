@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/w/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["cellular-automaton.nvim"] = {
+    loaded = true,
+    path = "/home/w/.local/share/nvim/site/pack/packer/start/cellular-automaton.nvim",
+    url = "https://github.com/eandrju/cellular-automaton.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/w/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -103,6 +108,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/w/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
+  },
+  ["copilot.vim"] = {
+    loaded = true,
+    path = "/home/w/.local/share/nvim/site/pack/packer/start/copilot.vim",
+    url = "https://github.com/github/copilot.vim"
   },
   ["friendly-snippets"] = {
     loaded = true,
@@ -144,6 +154,11 @@ _G.packer_plugins = {
     path = "/home/w/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/home/w/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/nvim-tree/nvim-web-devicons"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/w/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -160,7 +175,7 @@ _G.packer_plugins = {
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["rose-pine"] = {
-    config = { "\27LJ\2\2e\0\0\2\0\6\0\n6\0\0\0'\1\1\0B\0\2\0029\0\2\0B\0\1\0016\0\3\0009\0\4\0'\1\5\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\nsetup\14rose-pine\frequire\0" },
+    config = { "\27LJ\2\0029\0\0\2\0\3\0\0056\0\0\0009\0\1\0'\1\2\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\0" },
     loaded = true,
     path = "/home/w/.local/share/nvim/site/pack/packer/start/rose-pine",
     url = "https://github.com/rose-pine/neovim"
@@ -169,6 +184,12 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/w/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["trouble.nvim"] = {
+    config = { "\27LJ\2\2�\n\0\0\5\0000\0M6\0\0\0'\1\1\0B\0\2\0029\0\2\0005\1\3\0005\2\4\0005\3\5\0=\3\6\0025\3\a\0=\3\b\0025\3\t\0=\3\n\0025\3\v\0=\3\f\0025\3\r\0=\3\14\0025\3\15\0=\3\16\0025\3\17\0=\3\18\0025\3\19\0=\3\20\2=\2\21\0015\2\22\0=\2\23\0015\2\24\0=\2\25\1B\0\2\0016\0\26\0009\0\27\0009\0\28\0'\1\29\0'\2\30\0'\3\31\0005\4 \0B\0\5\0016\0\26\0009\0\27\0009\0\28\0'\1\29\0'\2!\0'\3\"\0005\4#\0B\0\5\0016\0\26\0009\0\27\0009\0\28\0'\1\29\0'\2$\0'\3%\0005\4&\0B\0\5\0016\0\26\0009\0\27\0009\0\28\0'\1\29\0'\2'\0'\3(\0005\4)\0B\0\5\0016\0\26\0009\0\27\0009\0\28\0'\1\29\0'\2*\0'\3+\0005\4,\0B\0\5\0016\0\26\0009\0\27\0009\0\28\0'\1\29\0'\2-\0'\3.\0005\4/\0B\0\5\1K\0\1\0\1\0\2\fnoremap\2\vsilent\2*<cmd>TroubleToggle lsp_references<cr>\agR\1\0\2\fnoremap\2\vsilent\2$<cmd>TroubleToggle quickfix<cr>\15<leader>xq\1\0\2\fnoremap\2\vsilent\2#<cmd>TroubleToggle loclist<cr>\15<leader>xl\1\0\2\fnoremap\2\vsilent\0020<cmd>TroubleToggle document_diagnostics<cr>\15<leader>xd\1\0\2\fnoremap\2\vsilent\0021<cmd>TroubleToggle workspace_diagnostics<cr>\15<leader>xw\1\0\2\fnoremap\2\vsilent\2\27<cmd>TroubleToggle<cr>\15<leader>xx\6n\bset\vkeymap\bvim\nsigns\1\0\5\fwarning\b\nother\b﫠\16information\b\thint\b\nerror\b\14auto_jump\1\2\0\0\20lsp_definitions\16action_keys\16toggle_fold\1\3\0\0\azA\aza\15open_folds\1\3\0\0\azR\azr\16close_folds\1\3\0\0\azM\azm\15jump_close\1\2\0\0\6o\ropen_tab\1\2\0\0\n<c-t>\16open_vsplit\1\2\0\0\n<c-v>\15open_split\1\2\0\0\n<c-x>\tjump\1\3\0\0\t<cr>\n<tab>\1\0\t\rprevious\6k\frefresh\6r\nclose\6q\19toggle_preview\6P\fpreview\6p\tnext\6j\nhover\6K\vcancel\n<esc>\16toggle_mode\6m\1\0\15\vheight\3\n\14fold_open\b\tmode\26workspace_diagnostics\rposition\vbottom\fpadding\2\15auto_close\1\17indent_lines\2\ngroup\2\nicons\2\17auto_preview\2\14auto_open\1\25use_diagnostic_signs\1\16fold_closed\b\14auto_fold\1\nwidth\0032\nsetup\ftrouble\frequire\0" },
+    loaded = true,
+    path = "/home/w/.local/share/nvim/site/pack/packer/start/trouble.nvim",
+    url = "https://github.com/folke/trouble.nvim"
   },
   undotree = {
     loaded = true,
@@ -179,14 +200,23 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/w/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["zen-mode.nvim"] = {
+    loaded = true,
+    path = "/home/w/.local/share/nvim/site/pack/packer/start/zen-mode.nvim",
+    url = "https://github.com/folke/zen-mode.nvim"
   }
 }
 
 time([[Defining packer_plugins]], false)
 -- Config for: rose-pine
 time([[Config for rose-pine]], true)
-try_loadstring("\27LJ\2\2e\0\0\2\0\6\0\n6\0\0\0'\1\1\0B\0\2\0029\0\2\0B\0\1\0016\0\3\0009\0\4\0'\1\5\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\nsetup\14rose-pine\frequire\0", "config", "rose-pine")
+try_loadstring("\27LJ\2\0029\0\0\2\0\3\0\0056\0\0\0009\0\1\0'\1\2\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\0", "config", "rose-pine")
 time([[Config for rose-pine]], false)
+-- Config for: trouble.nvim
+time([[Config for trouble.nvim]], true)
+try_loadstring("\27LJ\2\2�\n\0\0\5\0000\0M6\0\0\0'\1\1\0B\0\2\0029\0\2\0005\1\3\0005\2\4\0005\3\5\0=\3\6\0025\3\a\0=\3\b\0025\3\t\0=\3\n\0025\3\v\0=\3\f\0025\3\r\0=\3\14\0025\3\15\0=\3\16\0025\3\17\0=\3\18\0025\3\19\0=\3\20\2=\2\21\0015\2\22\0=\2\23\0015\2\24\0=\2\25\1B\0\2\0016\0\26\0009\0\27\0009\0\28\0'\1\29\0'\2\30\0'\3\31\0005\4 \0B\0\5\0016\0\26\0009\0\27\0009\0\28\0'\1\29\0'\2!\0'\3\"\0005\4#\0B\0\5\0016\0\26\0009\0\27\0009\0\28\0'\1\29\0'\2$\0'\3%\0005\4&\0B\0\5\0016\0\26\0009\0\27\0009\0\28\0'\1\29\0'\2'\0'\3(\0005\4)\0B\0\5\0016\0\26\0009\0\27\0009\0\28\0'\1\29\0'\2*\0'\3+\0005\4,\0B\0\5\0016\0\26\0009\0\27\0009\0\28\0'\1\29\0'\2-\0'\3.\0005\4/\0B\0\5\1K\0\1\0\1\0\2\fnoremap\2\vsilent\2*<cmd>TroubleToggle lsp_references<cr>\agR\1\0\2\fnoremap\2\vsilent\2$<cmd>TroubleToggle quickfix<cr>\15<leader>xq\1\0\2\fnoremap\2\vsilent\2#<cmd>TroubleToggle loclist<cr>\15<leader>xl\1\0\2\fnoremap\2\vsilent\0020<cmd>TroubleToggle document_diagnostics<cr>\15<leader>xd\1\0\2\fnoremap\2\vsilent\0021<cmd>TroubleToggle workspace_diagnostics<cr>\15<leader>xw\1\0\2\fnoremap\2\vsilent\2\27<cmd>TroubleToggle<cr>\15<leader>xx\6n\bset\vkeymap\bvim\nsigns\1\0\5\fwarning\b\nother\b﫠\16information\b\thint\b\nerror\b\14auto_jump\1\2\0\0\20lsp_definitions\16action_keys\16toggle_fold\1\3\0\0\azA\aza\15open_folds\1\3\0\0\azR\azr\16close_folds\1\3\0\0\azM\azm\15jump_close\1\2\0\0\6o\ropen_tab\1\2\0\0\n<c-t>\16open_vsplit\1\2\0\0\n<c-v>\15open_split\1\2\0\0\n<c-x>\tjump\1\3\0\0\t<cr>\n<tab>\1\0\t\rprevious\6k\frefresh\6r\nclose\6q\19toggle_preview\6P\fpreview\6p\tnext\6j\nhover\6K\vcancel\n<esc>\16toggle_mode\6m\1\0\15\vheight\3\n\14fold_open\b\tmode\26workspace_diagnostics\rposition\vbottom\fpadding\2\15auto_close\1\17indent_lines\2\ngroup\2\nicons\2\17auto_preview\2\14auto_open\1\25use_diagnostic_signs\1\16fold_closed\b\14auto_fold\1\nwidth\0032\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
+time([[Config for trouble.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
